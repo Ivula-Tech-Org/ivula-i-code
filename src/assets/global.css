@@ -1,0 +1,39 @@
+.main{
+    min-height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-bar{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+.nav-box .icon{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(91, 91, 91);
+}
+.nav-box p{
+    line-height: 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.inner-main{
+    flex: 10;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}

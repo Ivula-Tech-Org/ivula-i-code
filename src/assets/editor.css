@@ -1,0 +1,11 @@
+.monaco-box{
+    height: 323px;
+    width: 430px;
+    overflow: hidden;
+
+}
+.monaco{
+    height: 40%;
+    width: 10px;
+    padding-top: 10px;
+}

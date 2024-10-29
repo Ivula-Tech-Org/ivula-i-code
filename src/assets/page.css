@@ -1,0 +1,169 @@
+.page{
+    height: 100%;
+    display: flex;
+}
+.left, .right{
+    flex: 1;
+}
+.left{
+    /* border: 1px solid grey; */
+    border-radius: 15px;
+    padding-left: 3%;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    max-width: 100%;
+
+}
+.logo{
+    height: 150px;
+    width:150px;
+    max-height: 150px;
+    max-width: 150px;
+    background: url('../assets/IvulaLogo.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.banner p{
+    font-size: 150%;
+}
+.code-base{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 61%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.code-base .header{
+    /* margin-top: 10px; */
+    display: flex;
+    gap: 7px;
+    padding-left: 20px;
+}
+.code-base .header p{
+    border: 2px solid rgb(255, 106, 0);
+    height: 9px;
+    width: 9px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.p{
+    justify-self: flex-end;
+    /* margin-left: 75%; */
+    margin-top: 4%;
+    cursor: pointer;
+}
+.code-base .header p:nth-child(2){
+    border: 2px solid rgb(99, 99, 99);
+}
+
+.code-base .header p:nth-child(3){
+    border: 2px solid green;
+}
+.code-base .header .title{
+    border: none;
+    margin-top: 14px;
+    border-radius: 0;
+    width: 70%;
+    text-wrap: nowrap;
+    margin-left: 3%;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+.code-editor{
+    height: 85%;
+    background-color: #001524;
+    margin-top: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.play{
+    border: 1px solid #001524;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pload{
+    background: #803300;
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pload .icon{
+    font-size: 35px;
+    margin-left: 12px;
+    color: white;
+    cursor: pointer;
+}
+.pload .loading{
+    margin-left: 0;
+}
+.blender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.score {
+    background-color: #dbe6ffc7;
+    font-size: 13px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 7px;
+    color:#803300;
+}
+.sticker{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 280px;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stick{
+    font-size: 150px;
+    color: rgb(86, 86, 86);
+}
+.warning{
+    border: 1px solid grey;
+    position: absolute;
+    bottom: 30px;
+    left: 46%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.results{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: baseline;
+    gap: 12px;
+}
